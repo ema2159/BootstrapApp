@@ -1,0 +1,46 @@
+/***** Palette *****/
+/***** #11cbd7 *****/
+/***** #c6f1e7 *****/
+/***** #f0fff3 *****/
+/***** #fa4659 *****/
+
+/******* Tag selectors *********/
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3.7rem;
+}
+/******* Class selectors *******/
+/**** Title Section *****/
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.iphone-img {
+  width: max(40%, 300px);
+}
+
+.navbar-brand {
+    margin: -15px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6rem;
+}
+
+.btn {
+    margin: 20px 10px 0 0;
+}
+
+.btn-dark {
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+}
+
+.btn-outline-light {
+    color: #f0fff3;
+    border-color: #f0fff3;
+}
+
+/* ID selectors */
+#title {
+  background-color: #fa4659;
+  color: #f0fff3;
+}
