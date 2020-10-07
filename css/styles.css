@@ -17,6 +17,7 @@ h1 {
 
 .iphone-img {
   width: max(40%, 300px);
+  transform: rotate(20deg);
 }
 
 .navbar-brand {
