@@ -81,12 +81,6 @@ h3 {
 }
 /************** Features Section ***************/
 /**** Class selectors ****/
-/**** ID selectors ****/
-#features {
-  background-color: #f0fff3;
-  color: #fa4659;
-}
-
 .feat-container {
   text-align: center;
 }
@@ -97,6 +91,13 @@ h3 {
 
 .feat-icon:hover {
   color: #ea2629;
+}
+
+/**** ID selectors ****/
+#features {
+  background-color: #f0fff3;
+  color: #fa4659;
+  padding: 220px 0;
 }
 
 /*********** Media queries ***********/
@@ -126,5 +127,9 @@ h3 {
   }
   .phone-img {
     margin: 50px;
+  }
+  /**** Features section ****/
+  #features {
+    padding: 100px 0;
   }
 }
