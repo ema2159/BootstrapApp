@@ -69,25 +69,25 @@ h1 {
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 600px) {
   h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
   .container-fluid {
-      padding: 7%;
+    padding: 7%;
   }
   .navbar {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
   .navbar-brand {
     font-size: 1.2rem;
   }
   .nav-link {
-      font-family: "Dosis", sans-serif;
-      font-size: 1rem;
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
   }
   .btn {
     font-size: 0.8rem;
   }
   .phone-img {
-      margin: 50px;
+    margin: 50px;
   }
 }
