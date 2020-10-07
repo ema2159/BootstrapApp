@@ -62,6 +62,14 @@ h1 {
   font-size: 1.2rem;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
+.navbar-toggler:hover {
+  outline: none;
+  box-shadow: 0 0 0 2pt #c6f1e7;
+}
+
 /**** ID selectors ****/
 #title {
   background-color: #fa4659;
