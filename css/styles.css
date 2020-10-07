@@ -12,12 +12,15 @@ h1 {
 /******* Class selectors *******/
 /**** Title Section *****/
 .container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
 }
 
 .iphone-img {
   width: max(40%, 300px);
   transform: rotate(20deg);
+  margin-top: 35px;
+}
+
 .navbar {
   margin-bottom: 2rem;
   padding: 0;
@@ -44,17 +47,17 @@ h1 {
 }
 
 .btn {
-    margin: 20px 10px 0 0;
+  margin: 20px 10px 0 0;
 }
 
 .btn-dark {
-    background-color: #2f2f2f;
-    border-color: #2f2f2f;
+  background-color: #2f2f2f;
+  border-color: #2f2f2f;
 }
 
 .btn-outline-light {
-    color: #f0fff3;
-    border-color: #f0fff3;
+  color: #f0fff3;
+  border-color: #f0fff3;
 }
 
 /* ID selectors */
