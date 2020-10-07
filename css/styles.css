@@ -4,17 +4,34 @@
 /***** #f0fff3 *****/
 /***** #fa4659 *****/
 
-/******* Tag selectors *********/
+/******* General *******/
+/**** Tag selectors ****/
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 3.7rem;
 }
-/******* Class selectors *******/
-/**** Title Section *****/
+
+/**** Class selectors ****/
 .container-fluid {
   padding: 3% 15%;
 }
 
+.btn {
+  margin: 20px 10px 0 0;
+}
+
+.btn-dark {
+  background-color: #2f2f2f;
+  border-color: #2f2f2f;
+}
+
+.btn-outline-light {
+  color: #f0fff3;
+  border-color: #f0fff3;
+}
+
+/************** Title Section ***************/
+/**** Class selectors ****/
 .phone-img {
   width: max(40%, 200px);
   transform: rotate(20deg);
@@ -45,35 +62,34 @@ h1 {
   font-size: 1.2rem;
 }
 
-.btn {
-  margin: 20px 10px 0 0;
-}
-
-.btn-dark {
-  background-color: #2f2f2f;
-  border-color: #2f2f2f;
-}
-
-.btn-outline-light {
-  color: #f0fff3;
-  border-color: #f0fff3;
-}
-
-/* ID selectors */
+/**** ID selectors ****/
 #title {
   background-color: #fa4659;
   color: #f0fff3;
 }
+/************** Features Section ***************/
+/**** Class selectors ****/
+/**** ID selectors ****/
+#features {
+  background-color: #fa4659;
+  color: #f0fff3;
+}
 
-/* Media queries *************************************************************/
-/* If the screen size is 600px wide or less, hide the element */
+/*********** Media queries ***********/
+/* If the screen size is 
+600px wide or less, hide the element */
 @media only screen and (max-width: 600px) {
+  /**** General ****/
   h1 {
     font-size: 2rem;
   }
   .container-fluid {
     padding: 7%;
   }
+  .btn {
+    font-size: 0.8rem;
+  }
+  /**** Title section ****/
   .navbar {
     margin-bottom: 0;
   }
@@ -83,9 +99,6 @@ h1 {
   .nav-link {
     font-family: "Dosis", sans-serif;
     font-size: 1rem;
-  }
-  .btn {
-    font-size: 0.8rem;
   }
   .phone-img {
     margin: 50px;
