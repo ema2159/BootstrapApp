@@ -43,13 +43,14 @@ h3 {
 /************** Title Section ***************/
 /**** Class selectors ****/
 .phone-img {
+  display: block;
   width: max(40%, 200px);
   transform: rotate(20deg);
-  margin: 35px;
+  margin: 35px auto;
 }
 
 .navbar {
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
   padding: 0;
 }
 
@@ -123,6 +124,11 @@ h3 {
     font-size: 0.8rem;
   }
   /**** Title section ****/
+  .btn-container {
+    display: flex;
+    justify-content: center
+  }
+
   .navbar {
     margin-bottom: 0;
   }
@@ -134,10 +140,10 @@ h3 {
     font-size: 1rem;
   }
   .phone-img {
-    margin: 50px;
+    margin: 50px auto;
   }
   /**** Features section ****/
   #features {
-    padding: 100px 0;
+    min-height: 100%;
   }
 }
