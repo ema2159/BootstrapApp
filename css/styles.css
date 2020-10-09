@@ -6,6 +6,12 @@
 
 /******* General *******/
 /**** Tag selectors ****/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 3.7rem;
@@ -78,6 +84,7 @@ h3 {
 #title {
   background-color: #fa4659;
   color: #f0fff3;
+  min-height: 100%;
 }
 /************** Features Section ***************/
 /**** Class selectors ****/
@@ -97,7 +104,8 @@ h3 {
 #features {
   background-color: #f0fff3;
   color: #fa4659;
-  padding: 220px 0;
+  min-height: 50%;
+  position: relative;
 }
 
 /*********** Media queries ***********/
