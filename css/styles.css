@@ -115,7 +115,7 @@ h3 {
 /*********** Media queries ***********/
 /* If the screen size is 
 600px wide or less, hide the element */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   /**** General ****/
   h1 {
     font-size: 2rem;
