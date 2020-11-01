@@ -184,7 +184,7 @@ h3 {
     font-size: 3.3rem;
   }
   .container-fluid {
-    padding: 20% 3%;
+    padding: 10% 3%;
   }
   .btn {
     font-size: 0.8rem;
@@ -195,7 +195,7 @@ h3 {
     justify-content: center;
   }
   .navbar {
-    margin-bottom: 0;
+    margin-bottom: 2vh;
   }
   .navbar-brand {
     font-size: 1.2rem;
@@ -222,6 +222,7 @@ h3 {
   h3 {
     font-size: 1.8rem;
   }
+  /**** Title section ****/
   .navbar {
     padding: 15px;
   }
