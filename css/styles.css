@@ -170,15 +170,11 @@ h3 {
 #pricing {
   padding: 4% 15% 7%;
   text-align: center;
-  background-color: #f0fff3;
+  background-color: #11cbd7;
   color: #11cbd7;
 }
 
 /**** Class selectors ****/
-.price-col {
-  padding: 20px;
-}
-
 #pricing .btn {
   background-color: #fa4659;
   color: #f0fff3;
@@ -201,14 +197,41 @@ h3 {
   color: #f0fff3;
 }
 
-.card-text {
-  /* color: #fa4659; */
+.pricing-title {
+  color: #f0fff3;
+}
+
+.price-col {
+  padding: 20px;
 }
 
 .card-title {
   color: #fa4659;
 }
 
+/************** Call to action Section ***************/
+/**** ID selectors ****/
+#cta {
+  padding: 4% 15% 7%;
+  text-align: center;
+  background-color: #fa4659;
+  color: #f0fff3;
+  
+}
+
+/************** Copyright Section ***************/
+/**** ID selectors ****/
+#footer {
+  background-color: #f0fff3;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/**** Class selectors ****/
+.foot-icon {
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
 
 /*********** Media queries ***********/
 /* If the screen size is 
