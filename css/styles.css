@@ -246,6 +246,9 @@ h3 {
   h1 {
     font-size: 3.3rem;
   }
+  h3 {
+    font-size: 1.7rem;
+  }
   .container-fluid {
     padding: 10% 3%;
   }
