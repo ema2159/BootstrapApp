@@ -131,6 +131,10 @@ h3 {
   text-align: center;
   background-color: #fa4659;
   color: #f0fff3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 70%;
 }
 
 /**** Class selectors ****/
@@ -163,6 +167,10 @@ h3 {
   padding: 4% 0 7%;
   text-align: center;
   background-color: #f0fff3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30%;
 }
 
 /**** Class selectors ****/
@@ -276,6 +284,14 @@ h3 {
   /**** Features section ****/
   #features {
     min-height: 100%;
+  }
+  /** Testimonials Section **/
+  .testimonial-text {
+    font-size: 2.4rem;
+  }
+  /*** Copyright Section ***/
+  .copyright {
+    font-size: 0.8rem;
   }
 }
 
