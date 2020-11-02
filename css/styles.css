@@ -40,6 +40,11 @@ h3 {
   border-color: #2f2f2f;
 }
 
+.btn-dark:hover {
+  background-color: black;
+  border-color: #2f2f2f;
+}
+
 .btn-outline-light {
   color: #f0fff3;
   border-color: #f0fff3;
